@@ -1,0 +1,37 @@
+body {
+    background: url(../images/bg.png);
+    background-repeat: repeat;
+}
+
+.pizza-image {
+    background-color: #eeeeee;
+}
+
+#error-message {
+  color: crimson;  
+}
+
+.status-select {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.status-select:hover {
+    color: #ff9900;
+}
+
+.green {
+    color: #339933;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.height-3em {
+    height: 3em;
+}
+
+.white {
+    color: white;
+}
