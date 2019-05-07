@@ -91,7 +91,7 @@ class Fahrerstatus extends Page
                     $bestellung = array();
                     $bestellung["BestellungID"] = $row["BestellungID"];
                     $bestellid = $row["BestellungID"];
-                    $bestellung["Adresse"] = $row["Adresse"];
+                    $bestellung["Adresse"] = htmlspecialchars_decode($row["Adresse"]);
                     
                     $pizzen = array();
                     $subsql = "SELECT PizzaID, PizzaName, Status FROM bestelltepizza inner join angebot on bestelltepizza.fPizzaNummer=angebot.PizzaNummer WHERE fBestellungID=$bestellid;";

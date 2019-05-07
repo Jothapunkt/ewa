@@ -149,7 +149,7 @@ EOT;
         </table>
         <b>Gesamt: <span id="total">0,00</span>€</b>
         <form method="POST" onsubmit="return sendOrder()" action="thankyou.php">
-            <input type="hidden" name="order" id="order-input" tabindex="0" accesskey="x">
+            <input type="hidden" name="order" id="order-input" tabindex="0" accesskey="v">
             <input type="text" name="address" class="form-control mb-2" id="address-input" placeholder="Ihre Adresse" value=""  tabindex="0" accesskey="y">
             <p id="error-message"></p>
             <button class="btn btn-primary" tabindex="0" accesskey="c">Bestellen</button>

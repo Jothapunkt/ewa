@@ -106,8 +106,8 @@ class ResetOrders extends Page
         } 
         
         $this->_database->query("SET NAMES utf8"); //Set database connection to UTF-8 (Necessary!)
-        $this->_database->query("DELETE FROM bestelltepizza WHERE 1;"); //Set database connection to UTF-8 (Necessary!)
-        $this->_database->query("DELETE FROM bestellung WHERE 1;"); //Set database connection to UTF-8 (Necessary!)
+        $this->_database->query("DELETE FROM bestelltepizza WHERE 1;");
+        $this->_database->query("DELETE FROM bestellung WHERE 1;");
         
        
     }

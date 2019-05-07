@@ -35,3 +35,7 @@ body {
 .white {
     color: white;
 }
+
+.nodisplay {
+    display: none;
+}
